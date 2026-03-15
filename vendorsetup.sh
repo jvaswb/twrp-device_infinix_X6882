@@ -1,6 +1,3 @@
-export BUILD_USERNAME=KimelaZPrjkt_Andrei0514
-export BUILD_HOSTNAME=At-Your-Service
-
 
 #!/bin/bash
 
@@ -9,11 +6,11 @@ export FOX_AB_DEVICE=1
 export FOX_VIRTUAL_AB_DEVICE=1
 export OF_DEFAULT_KEYMASTER_VERSION=4.1
 export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
-export OF_MAINTAINER="Andreii_0514"
-export FOX_VARIANT="R11.2-A12_andreii0514"
+export OF_MAINTAINER="jvaswb"
+export FOX_VARIANT="R11.2-A12_jvaswb"
 export OF_FLASHLIGHT_ENABLE=0
 
-export BUILD_USERNAME=XTENSEI_Andreii0514
+export BUILD_USERNAME=jvaswb
 export BUILD_HOSTNAME=At-Your-Service
 
 export FOX_USE_BASH_SHELL=1
