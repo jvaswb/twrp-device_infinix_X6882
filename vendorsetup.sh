@@ -7,6 +7,7 @@ export FOX_VIRTUAL_AB_DEVICE=1
 export OF_DEFAULT_KEYMASTER_VERSION=4.1
 export OF_NO_TREBLE_COMPATIBILITY_CHECK=1
 export OF_MAINTAINER="jvaswb"
+export FOX_VARIANT="jvaswb"
 export OF_FLASHLIGHT_ENABLE=0
 
 export BUILD_USERNAME=jvaswb
@@ -29,7 +30,7 @@ export FOX_USE_DATA_RECOVERY_FOR_SETTINGS=1
 
 export OF_LOOP_DEVICE_ERRORS_TO_LOG=1
 
-export OF_USE_LZ4_COMPRESSION=1
+export OF_USE_LZ4_COMPRESSION=true
 
 export OF_SCREEN_H=2400
 export OF_STATUS_H=95
@@ -55,7 +56,7 @@ git clone https://android.googlesource.com/platform/external/gflags/ -b android-
 # Patches
 RET=0
 cd bootable/recovery
-git apply ../../device/transsion/mt6789-common/patches/0001-Change-haptics-activation-file-path.patch > /dev/null 2>&1 || RET=$?
+git apply ../../device/infinix/X6882/patches/0001-Change-haptics-activation-file-path.patch > /dev/null 2>&1 || RET=$?
 cd ../../
 if [ $RET -ne 0 ];then
     echo "ERROR: Patch is not applied! Maybe it's already patched?"
