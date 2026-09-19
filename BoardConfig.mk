@@ -8,7 +8,7 @@ DEVICE_PATH := device/infinix/X6882
 
 TARGET_RECOVERY_DEVICE_DIRS := \
     $(DEVICE_PATH) \
-    
+
 
 # Architecture
 TARGET_ARCH := arm64
